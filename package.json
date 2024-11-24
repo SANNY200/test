@@ -1,0 +1,17 @@
+{
+    "name": "whatsapp-bot",
+    "version": "1.0.0",
+    "description": "A WhatsApp bot built using Baileys and MongoDB",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@whiskeysockets/baileys": "^6.0.0",
+      "mongoose": "^7.0.0",
+      "mongodb": "^4.4.0"
+    },
+    "author": "Sanidu",
+    "license": "MIT"
+  }
+  
