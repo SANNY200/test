@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: whatsapp-bot
+    env: node
+    buildCommand: 'npm install'
+    startCommand: 'node index.js'
+    envVars:
+      - key: MONGODB_URI
+        value: 'your_mongodb_connection_string'
+      - key: SESSION_ID
+        value: 'your_session_id'
+      - key: BOT_NUMBER
+        value: 'your_whatsapp_bot_number'
+      - key: ALIVE_IMG
+        value: 'url_to_your_alive_image'
