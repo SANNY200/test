@@ -1,0 +1,11 @@
+{
+    "name": "Sanidu Bot",
+    "description": "A WhatsApp Bot",
+    "version": "1.0.0",
+    "dependencies": {
+      "@whiskeysockets/baileys": "^6.0.0",
+      "dotenv": "^16.0.3",
+      "mongodb": "^4.5.0"
+    }
+  }
+  
